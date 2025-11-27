@@ -1,4 +1,4 @@
-package entity;
+package entity.osobe;
 
 /**
  * Predstavlja djelatnika hotela.

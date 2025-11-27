@@ -1,4 +1,4 @@
-package entity;
+package entity.sobe;
 
 /**
  * Kreiranje soba pomoću builder patterna.

@@ -1,4 +1,4 @@
-package entity;
+package entity.sobe;
 /**
  * Označava da soba ili objekt ima pristup bazenu.
  * <p>

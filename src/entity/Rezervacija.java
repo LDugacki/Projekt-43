@@ -1,7 +1,12 @@
 package entity;
+import entity.osobe.Djelatnik;
+import entity.osobe.Gost;
+import entity.sobe.Soba;
+
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.util.List;
 
 
 /**
@@ -28,7 +33,11 @@ public record Rezervacija(
                        BigDecimal cijenaNocenja, Soba soba, Djelatnik djelatnik) {
         this(gost, id, datumDolaska, brojNocenja, cijenaNocenja, soba, djelatnik, LocalDateTime.now());
     }
-
+    public static void dodajRezervaciju(
+            List<? super Rezervacija> lista,
+            Rezervacija r) {
+        lista.add(r);
+    }
 /**
  * Izračunava ukupnu cijenu rezervacije.
  *

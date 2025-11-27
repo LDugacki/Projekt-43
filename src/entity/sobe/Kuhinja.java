@@ -1,4 +1,4 @@
-package entity;
+package entity.sobe;
 
 /**
  * Označava da soba ima kuhinju.

@@ -1,4 +1,4 @@
-package entity;
+package entity.sobe;
 
 /**
  * Predstavlja Suite sobu u hotelu.
