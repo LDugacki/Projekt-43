@@ -8,7 +8,10 @@ import java.util.Comparator;
 import java.util.DoubleSummaryStatistics;
 import java.util.List;
 import java.util.Scanner;
-
+/**
+ * Glavni izbornik aplikacije
+ * @since 3.0
+ */
 public class MenuUtils {
     private static final Logger log = LoggerFactory.getLogger(MenuUtils.class);
     /**
@@ -21,13 +24,12 @@ public class MenuUtils {
      * <ul>
      *   <li>Pretraživanje po imenu ili prezimenu gosta</li>
      *   <li>Pretraživanje po broju sobe</li>
-     *   <li>Prikaz statistike (min/max ukupne cijene)</li>
-     *   <li>Debug ispis svih rezervacija</li>
+     *   <li>Prikaz statistike </li>
      * </ul>
      *
      * @param scInput Scanner koji se koristi za unos s konzole
      * @param rezervacije polje {@code Rezervacija} objekata koje se pretražuje i prikazuje
-     * @since 1.0
+     * @since 3.0
      */
     public static void menuMain(Scanner scInput, List<Rezervacija> rezervacije) {
         int menuMainChoice = 9;
